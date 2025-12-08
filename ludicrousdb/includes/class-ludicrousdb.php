@@ -1426,7 +1426,7 @@ class LudicrousDB extends wpdb {
 	*                                       - the current database
 	*                                       - the database housing the specified table
 	*                                       - the database of the MySQL resource
-	 * @param false|string          $table Optional. The table name. Only used if $dbh is false
+	 * @param false|string          $table Optional. The table name. Only used if $dbh is false.
 	 */
 	public function select( $db, $dbh = false, $table = false ) {
 		if ( $dbh === false ) {
