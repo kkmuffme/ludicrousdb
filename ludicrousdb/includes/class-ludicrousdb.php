@@ -688,7 +688,7 @@ class LudicrousDB extends wpdb {
 	 * @param bool $allow_bail Unused. For WordPress compatibility only.
 	 * @param string $query Query.
 	 *
-	 * @return resource MySQL database connection
+	 * @return false|mysqli MySQL database connection
 	 */
 	public function db_connect( $allow_bail = null, $query = '' ) {
 		if ( is_string( $allow_bail ) && $query === '' ) {
