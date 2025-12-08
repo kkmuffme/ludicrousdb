@@ -1432,7 +1432,7 @@ class LudicrousDB extends wpdb {
 		if ( $dbh === false ) {
 			$dbh = $this->get_db_object( $table );
 		} elseif ( is_string( $dbh ) ) {
-			// backwards-compat of $dbh_or_table
+			// backwards-compatibility of $dbh_or_table
 			$dbh = $this->get_db_object( $dbh );
 		}
 
