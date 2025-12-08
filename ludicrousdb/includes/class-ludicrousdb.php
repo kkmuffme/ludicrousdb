@@ -1609,7 +1609,7 @@ class LudicrousDB extends wpdb {
 	 * @since 1.0.0
 	 *
 	 * @param bool   $allow_bail        Optional. Allows the function to die. Default true.
-	 * @param bool   $dbh_or_table      Optional.
+	 * @param false|string|mysqli|resource $dbh_or_table Optional.
 	 * @param string $query             Optional. Query string passed db_connect
 	 *
 	 * @return bool|void True if the connection is up.
