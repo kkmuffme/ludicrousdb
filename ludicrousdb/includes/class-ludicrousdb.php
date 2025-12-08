@@ -697,7 +697,6 @@ class LudicrousDB extends wpdb {
 			// $allow_bail = $this->die_on_disconnect;
 		} elseif ( $allow_bail === null ) {
 			// unlike WP core we can try another server if one fails
-			// $allow_bail = $this->die_on_disconnect;
 		}
 
 		// Bail if empty query
